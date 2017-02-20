@@ -6,3 +6,5 @@ Modules and source code files of numerical solutions to different problems. I wi
 tridiag.f90: Three routines for solving second order differential equation that reduces to solving tridiagonal matrix equation; SOR, Thomas algorithm and Numerov method.
 
 SE_H_bisectio.f90: Bisection method solution for the Schrödinger equation for Hydrogen atom. 
+
+The C++ scripts are much shorter and easier to read. I did NOT write the Mersenne twister code and header, but I did write the other RNG's.
