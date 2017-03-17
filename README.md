@@ -47,4 +47,8 @@ Calculate area of the curves y = sin(x) and y = cos(x) in the rectangle
 0<x<2pi, -1<y<1 and then the area between these curve using Monte Carlo 
 integration. Uses Mersenne Twister mt19937-64.c.
 
+gslmat1.cpp:
+Least squares solution for Ax=b, A is mxn matrix where m>n using  
+two solution methods, GSL QR decomposition and direct GSL LSQ function.
+y(t)=x1t+x2 with data {(2,1),(5,2),(7,3),(8,3)}.
 
